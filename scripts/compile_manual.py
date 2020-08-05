@@ -6,7 +6,7 @@ import re
 from lxml.html import fromstring as lxsoup
 
 SRC_DIR = Path('data', 'collected', 'sic_manual', 'description',)
-TARGET_PATH = Path('data', 'compiled', 'sic_descriptions.csv')
+TARGET_PATH = Path('data', 'compiled', 'sic_manual.csv')
 
 COMPILED_HEADERS = (
     'sic_code', 'sic_name',

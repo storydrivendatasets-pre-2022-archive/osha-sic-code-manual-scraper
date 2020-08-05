@@ -8,7 +8,7 @@ clean:
 help:
 	@echo 'Run `make ALL` to see how things run from scratch'
 
-ALL: collect
+ALL: clean collect compile
 
 compile: data/compiled/sic_manual.csv
 
