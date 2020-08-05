@@ -13,7 +13,7 @@ try:
 except ModuleNotFoundError:
 
     def mylog(*args, label=None, color='cyan'):
-        labtxt = f"{label}: " else ""
+        labtxt = f"{label}: " if label else ""
         txt = "\n» ".join([str(a) for a in args])
         if len(args) > 1:
             txt += '\n///'

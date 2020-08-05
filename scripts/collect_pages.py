@@ -3,7 +3,6 @@ from mylog import mylog
 
 from pathlib import Path
 import requests
-import re
 from lxml.html import fromstring as lxsoup
 from urllib.parse import parse_qs, urljoin, urlparse
 
