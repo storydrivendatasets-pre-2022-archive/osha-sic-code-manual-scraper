@@ -1,0 +1,4 @@
+requests>=2.0
+cssselect
+lxml
+rich

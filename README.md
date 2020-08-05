@@ -51,6 +51,9 @@ $ make ALL
 
 &ndash; will erase everything in [data/collected](data/collected) and [data/compiled](data/compiled) and refetch all the pages from the online OSHA manual, and then rescrape them to extract the data.
 
+This requires **Python 3.x** and the libraries found in [requirements.txt](requirements.txt)
+
+
 
 ## More reading
 
