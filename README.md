@@ -4,9 +4,15 @@
 > *tl;dr, Download the SIC code manual as CSV:* [compiled/sic_manual.csv](https://raw.githubusercontent.com/storydrivendatasets/osha-sic-code-manual-scraper/master/data/compiled/sic_manual.csv)
 
 
+
+
 ## Intro
 
-If you're working with OSHA data – such as the [OSHA enforcement data catalog](https://enforcedata.dol.gov/views/data_catalogs.php) you might have come across SIC codes. Apparently, the [SIC codes haven't been updated since 1987](https://www.naics.com/what-is-the-difference-between-naics-codes-and-sic-codes/) and are meant to be replaced by the NAICS system, which may explain why there's no easy-to-find official SIC code book in a structured format.
+If you're working with OSHA data – such as the [OSHA enforcement data catalog](https://enforcedata.dol.gov/views/data_catalogs.php) you might have come across SIC codes. Apparently, the [SIC codes haven't been updated since 1987](https://www.naics.com/what-is-the-difference-between-naics-codes-and-sic-codes/) and are meant to be replaced by the NAICS system, which may explain why there's no easy-to-find official SIC code book in a convenient structured format, like CSV.
+
+
+
+<img src="a/images/osha-manual-screenshot.png" alt="osha-manual-screenshot.png">
 
 
 ## Get the data
@@ -30,7 +36,7 @@ For example, code `0831`, which corresponds to "Forest Nurseries and Gathering o
 That page looks like:
 
 <a href="https://www.osha.gov/pls/imis/sic_manual.display?id=367&tab=description 
-"><img src="data/archive/images/sample-osha-manual-page.png" alt="sample-osha-manual-page.png">
+"><img src="a/images/sample-osha-manual-page.png" alt="sample-osha-manual-page.png">
 </a>
 
 
@@ -38,7 +44,7 @@ Every field in the CSV corresponds to something on the page.
 
 In particular, the `sic_examples` field contains *every* list item found on the corresponding code page. Each example is delimited by a newline character, so the spreadsheet looks a bit goofy like this:
 
-<img src="data/archive/images/sample-spreadsheet-examples-expanded.png" alt="sample-spreadsheet-examples-expanded.png">
+<img src="a/images/sample-spreadsheet-examples-expanded.png" alt="sample-spreadsheet-examples-expanded.png">
 
 
 ## Running the scrape yourself
